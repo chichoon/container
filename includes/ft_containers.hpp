@@ -1,19 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   ft_containers.hpp                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jiychoi <jiychoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/23 15:09:50 by jiychoi           #+#    #+#             */
-/*   Updated: 2022/12/23 16:54:28 by jiychoi          ###   ########.fr       */
+/*   Created: 2022/12/23 14:49:04 by jiychoi           #+#    #+#             */
+/*   Updated: 2022/12/23 16:54:12 by jiychoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/ft_containers.hpp"
+#ifndef FT_CONTAINERS_HPP
+# define FT_CONTAINERS_HPP
 
-int main(void) {
-    ft::vector<int> v;
+#include "vector.hpp"
 
-    std::cout << &v << "\n";
-}
+#include <iostream>
+
+#endif
