@@ -6,14 +6,14 @@
 /*   By: jiychoi <jiychoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/23 15:09:50 by jiychoi           #+#    #+#             */
-/*   Updated: 2022/12/23 16:54:28 by jiychoi          ###   ########.fr       */
+/*   Updated: 2022/12/23 19:16:08 by jiychoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./includes/ft_containers.hpp"
 
 int main(void) {
-    ft::vector<int> v;
+    ft::vector<int> *v = new ft::vector<int>;
 
     std::cout << &v << "\n";
 }
